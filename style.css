@@ -1,0 +1,369 @@
+@import url(reset.css);
+
+/*header*/
+header{
+  width:100%;
+  height:auto;
+  border: 1px solid red;
+  position:absolute;
+  z-index:100000;
+}
+header div.header_wrap{
+  border:1px solid black;
+  height:20px;
+  padding:20px 50px;
+}
+header div.header_wrap div.header_logo{
+  width:10%;
+  height:20px;
+  float:left;
+  background-color: lightgreen;
+}
+header div.header_wrap div.header_right{
+  float:right;
+  background-color: lightblue;
+}
+header div.header_wrap div.header_right .menu{
+  display:inline-block;
+  vertical-align: middle;
+  font-size: 15px;
+}
+header div.header_wrap div.header_right .menu a{
+  border:1px solid red;
+  margin-left:40px;
+}
+
+main{
+  background-color: lightyellow;
+  width:100%;
+  height:auto;
+  position:absolute;
+  top:0;
+}
+
+/*visual*/
+main section.visual{
+  border:1px solid red;
+  width:100%;
+  height:100%;
+}
+main .visual .visual_text{
+  padding:300px 50px;
+}
+main .visual .visual_text p{
+  margin-bottom:20px;
+  font-size:18px;
+}
+main .visual .visual_text h2{
+  font-size:40px;
+}
+
+/*first*/
+main .first{
+  width:100%;
+  height:auto;
+  background-color: lightpink;
+}
+main .first .first_wrap{
+  width:90%;
+  height:auto;
+  border:1px solid black;
+  text-align: center;
+  margin:0 auto;
+}
+main .first .first_wrap .text{
+  width:50%;
+  height:auto;
+  margin:0 auto;
+  border:1px solid red;
+}
+main .first .first_wrap .text h2{
+  padding:100px 0 50px;
+  font-size:40px;
+}
+main .first .first_wrap .text p{
+  padding:50px 0;
+  font-size:20px;
+}
+main .first .first_wrap .product{
+  width:100%;
+  height:500px;
+  background-color:lightcoral
+}
+/*second*/
+main .second{
+  width:100%;
+  height:auto;
+  background-color: lightgreen;
+}
+main .second .second_wrap{
+  width:90%;
+  height:auto;
+  border:1px solid black;
+  text-align: center;
+  margin:0 auto;
+}
+main .second .second_wrap .text{
+  width:50%;
+  height:auto;
+  margin:0 auto;
+  border:1px solid red;
+}
+main .second .second_wrap .text h2{
+  padding:100px 0 50px;
+  font-size:40px;
+}
+main .second .second_wrap .text p{
+  padding:50px 0;
+  font-size:20px;
+}
+main .second .second_wrap .second_ctn{
+  width:100%;
+  height:auto;
+}
+main .second .second_wrap .second_ctn div{
+  width:100%;
+  height:450px;
+  background-color: aqua;
+  margin:0 0 50px;
+}
+/*third*/
+.third{
+  width:100%;
+  height:auto;
+  background-color: lightgreen;
+}
+.third .third_wrap{
+  width:90%;
+  height:auto;
+  border:1px solid blue;
+  margin:0 auto;
+  text-align: center;
+}
+main .third .third_wrap .text{
+  width:50%;
+  height:auto;
+  margin:0 auto;
+  border:1px solid red;
+}
+main .third .third_wrap .text h2{
+  padding:100px 0 50px;
+  font-size:40px;
+}
+main .third .third_wrap .text p{
+  padding:50px 0;
+  font-size:20px;
+  line-height: 30px;
+}
+main .third .third_wrap .third_img{
+  width:100%;
+  height:400px;
+  background-color: #000;
+}
+main .third .third_wrap .third_ctn{
+  width:100%;
+  height:auto;
+  background-color: lightseagreen;
+  margin-top:50px;
+}
+main .third .third_wrap .third_ctn .title{
+  width:50%;
+  height:500px;
+  bordeR:1px solid red;
+  
+  background-color: lightskyblue;
+}
+main .third .third_wrap .third_ctn .title h2{
+  font-size:40px;
+  float:left;
+}
+main .third .bg_img{
+  width:100%;
+  height:300px;
+  background: #eee;
+  margin-top:200px;
+  text-align: center;
+}
+
+
+/*fourth*/
+.fourth{
+  width:100%;
+  height:auto;
+  background-color: lightcoral;
+  position: relative;
+}
+.fourth .text{
+  padding:50px;
+  border:1px solid red;
+  text-align:center;
+  font-size:25px;
+}
+.fourth .text h3{
+  font-size:30px;
+  margin-bottom:15px;
+}
+.fourth .wrap{
+  border:1px solid black;
+  width:90%;
+  height:auto;
+  margin:0 auto;
+  position:relative;
+  padding-bottom:200px;
+}
+.fourth .wrap div{
+  width:600px;
+  height:700px;
+  border:1px solid pink;
+}
+.fourth .wrap div.box1{
+  position:relative;
+  top: 0;
+  left: 0;
+  background-color: red;
+}
+
+.fourth .wrap div.box2{
+  position:absolute;
+  bottom:150px;
+  right:0;
+  background-color: orange;
+}
+
+.fourth .wrap div.box3{
+  position:relative;
+  display: inline-block;
+  width:450px;
+  height:500px;
+  top:130px;
+  left:100px;
+  background-color: green;
+  margin-top:100px;
+  
+}
+
+/*fifth*/
+.fifth{
+  margin-top:100px;
+  width:100%;
+  height:auto;
+  text-align: center;
+}
+
+.fifth .wrap{
+  width:100%;
+  height:auto;
+}
+.fifth .wrap .box{
+  display:inline-flex;
+  width:33%;
+  height:auto;
+  background-color: #fff;
+  margin-bottom:20px;
+  
+}
+.fifth .wrap .box section{
+  
+  margin:0 auto;
+  padding-bottom:20px;
+}
+
+.fifth .wrap .box section h5{
+  padding:20px 0;
+  font-size:30px;
+}
+.fifth .wrap .box section p{
+  font-size:20px;
+  color:rgb(94, 94, 94);
+  padding: 20px 0;
+}
+.fifth .wrap .box button{
+  padding:10px 20px;
+  background-color: #ffffff;
+  border:1px solid rgb(94, 94, 94);
+  margin-bottom:20px;
+}
+.fifth .wrap .box section img{
+  width:200px;
+  height:400px;
+  background-color: lightgreen;
+}
+
+/*sixth*/
+.sixth{
+  margin-top:200px;
+  width:100%;
+  height:auto;
+  bordeR:1px solid black;
+}
+.sixth .wrap{
+  border:1px solid red;
+  width:90%;
+  height:auto;
+  margin:0 auto;
+}
+main .sixth .wrap .text{
+  width:50%;
+  height:auto;
+  margin:0 auto;
+  border:1px solid purple;
+  text-align:center;
+}
+main .sixth .wrap .text h2{
+  padding:100px 0 50px;
+  font-size:40px;
+}
+main .sixth .wrap .text p{
+  padding:50px 0;
+  font-size:20px;
+}
+main .sixth .wrap .left{
+  width:80%;
+  height:auto;
+  background: lightpink;
+  float:left;
+  display:inline;
+}
+main .sixth .wrap .left .left_img{
+  width:90%;
+  height:800px;
+  background: #eee;
+}
+.sixth .wrap .left .left_text{
+  width:65%;
+  height:auto;
+}
+.sixth .wrap .left .left_text h4{
+  font-size:30px;
+  padding:20px 0;
+}
+.sixth .wrap .left .left_text h6{
+  font-size:27px;
+  padding:20px 0;
+}
+.sixth .wrap .left .left_text p{
+  font-size:22px;
+  padding:20px 0;
+}
+
+main .sixth .wrap .right{
+  width:20%;
+  height:auto;
+  float:right;
+  display:inline;
+}
+main .sixth .wrap .right .img-box{
+  width:100%;
+  height:800px;
+  background-color: lightcoral;
+}
+main .sixth .wrap .right button{
+  margin-top:100px;
+  padding:25px 0;
+  width:100%;
+  float:right;
+  font-size:20px;
+}
+
+
+
